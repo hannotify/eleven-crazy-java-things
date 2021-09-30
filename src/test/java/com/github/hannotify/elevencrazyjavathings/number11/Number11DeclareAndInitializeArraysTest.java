@@ -1,5 +1,6 @@
-package com.github.hannotify.elevencrazyjavathings;
+package com.github.hannotify.elevencrazyjavathings.number11;
 
+import com.github.hannotify.elevencrazyjavathings.number11.Number11DeclareAndInitializeArrays;
 import java.util.List;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

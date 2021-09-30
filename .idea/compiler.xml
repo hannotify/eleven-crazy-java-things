@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="12">
-      <module name="eleven-crazy-java-things" target="11" />
+      <module name="eleven-crazy-java-things" target="16" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -1,4 +1,4 @@
-package com.github.hannotify.elevencrazyjavathings;
+package com.github.hannotify.elevencrazyjavathings.number11;
 
 import java.util.List;
 
