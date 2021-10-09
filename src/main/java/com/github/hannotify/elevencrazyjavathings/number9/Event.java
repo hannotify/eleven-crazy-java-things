@@ -2,7 +2,7 @@ package com.github.hannotify.elevencrazyjavathings.number9;
 
 public interface Event {
     default String welcome() {
-        return "Welcome to this %s!".formatted(type());
+        return String.format("Welcome to this %s!", type());
     }
 
     String type();

@@ -17,7 +17,7 @@ public enum Conference {
         this.country = country;
     }
     public String whenIsTheNext() {
-        return "The next %s will be in %d; it will take place in %s."
-                .formatted(name, nextEdition.getValue(), country);
+        return String.format("The next %s will be in %d; it will take place in %s.",
+                name, nextEdition.getValue(), country);
     }
 }
