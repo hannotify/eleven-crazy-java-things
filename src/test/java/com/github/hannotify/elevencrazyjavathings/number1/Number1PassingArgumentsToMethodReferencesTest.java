@@ -46,15 +46,27 @@ class Number1PassingArgumentsToMethodReferencesTest {
     @Test
     @DisplayName("Venues created through method references should have the right properties.")
     void createVenueUsingMethodReferences() {
+        /*
+        "Get me the constructor reference of the constructor that does not take any argument"
+         */
         final Supplier<Venue> anonymousVenueSupplier = Venue::new;
         assertAnonymousVenue(anonymousVenueSupplier.get());
 
+        /*
+        "Get me the constructor reference of the constructor that takes a String argument"
+         */
         final Supplier<Venue> tinyClassroomSupplier = Venue::new;//("Classroom");
         assertTinyClassroom(tinyClassroomSupplier.get());
 
-        final Supplier<Venue> largeAnonymousVenueSupplier = Venue::new;//(200)
+        /*
+        "Get me the constructor reference of the constructor that takes an Integer argument"
+         */
+        final Supplier<Venue> largeAnonymousVenueSupplier = Venue::new;//(200);
         assertLargeAnonymousVenue(largeAnonymousVenueSupplier.get());
 
+        /*
+        "Get me the constructor reference of the constructor that takes a String and Integer argument"
+         */
         final Supplier<Venue> regularClassroomSupplier = Venue::new;//("Classroom", 30);
         assertRegularClassroom(regularClassroomSupplier.get());
     }
