@@ -6,7 +6,7 @@ public class Number2FunctionalInterfaces {
 
 }
 
-@FunctionalInterface
+//@FunctionalInterface
 abstract class Venue {
     public abstract void open();
 }
@@ -24,7 +24,7 @@ interface Badge {
     }
 }
 
-@FunctionalInterface
+//@FunctionalInterface
 interface IgniteSpeaker extends Speaker {
     void stressOutOverTimeLimit(int timeLimit);
 }
