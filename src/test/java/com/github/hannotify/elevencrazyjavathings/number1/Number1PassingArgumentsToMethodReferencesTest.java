@@ -69,6 +69,10 @@ class Number1PassingArgumentsToMethodReferencesTest {
          */
         final Supplier<Venue> regularClassroomSupplier = Venue::new;//("Classroom", 30);
         assertRegularClassroom(regularClassroomSupplier.get());
+
+        /*
+        Arguments are required only when you actually invoke the constructor or a method.
+         */
     }
 
     private void assertAnonymousVenue(Venue anonymousVenue) {
