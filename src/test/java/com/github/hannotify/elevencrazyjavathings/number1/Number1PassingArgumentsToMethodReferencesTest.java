@@ -10,7 +10,6 @@ import static org.assertj.core.api.Assertions.*;
 @DisplayName("#1 - Passing arguments to method references \uD83E\uDD2F")
 class Number1PassingArgumentsToMethodReferencesTest {
 
-    // Plan A: test direct tegen Venue aan.
     @Test
     @DisplayName("Venues created through various constructors should have the right properties.")
     void createVenuesUsingConstructor() {
