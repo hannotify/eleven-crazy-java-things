@@ -52,11 +52,4 @@ class Number3WrapperObjectsTest {
     void integerEqualsShouldReturnTrueWith10AndNew10() {
         assertThat(integerEquals(10, new Integer(10))).isTrue();
     }
-
-    @Test
-    @DisplayName("integerEquals() should return true when the same arguments (10) are passed but one of the arguments is created using Integer.valueOf()")
-    void integerEqualsShouldReturnTrueWith10AndValueOf10() {
-        assertThat(integerEquals(10, Integer.valueOf(10))).isTrue();
-    }
-
 }
