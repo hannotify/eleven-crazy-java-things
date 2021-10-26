@@ -3,7 +3,6 @@ package com.github.hannotify.elevencrazyjavathings.number8;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
 import static org.assertj.core.api.Assertions.*;
 
 @DisplayName("#8 - Creating anonymous subclasses in an enum definition: yes, you can!")

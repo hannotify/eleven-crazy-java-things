@@ -1,6 +1,5 @@
 package com.github.hannotify.elevencrazyjavathings.number10;
 
-import com.github.hannotify.elevencrazyjavathings.number10.Number10StreamElementsShouldImplementComparable;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
