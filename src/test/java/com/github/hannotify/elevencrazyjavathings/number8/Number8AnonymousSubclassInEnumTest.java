@@ -26,7 +26,7 @@ class Number8AnonymousSubclassInEnumTest {
     @DisplayName("whenIsTheNextJFall() should show our love for this fantastic conference!")
     void whenIsTheNextJFall() {
         assertThat(Number8AnonymousSubclassInEnum.whenIsTheNextJFall()).isEqualTo(
-                "The next J-Fall will be in 2021; it will take place in the Netherlands. " +
+                "The next J-Fall will be in 2021; it will take place in the Netherlands." +
                         "It is the best one-day conference we know!");
     }
 }
