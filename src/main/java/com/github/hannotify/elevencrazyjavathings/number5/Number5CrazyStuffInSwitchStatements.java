@@ -21,8 +21,6 @@ public class Number5CrazyStuffInSwitchStatements {
         return description;
     }
 
-
-
     /*
     'c' = 99  = 1100011
     'd' = 100 = 1100100
