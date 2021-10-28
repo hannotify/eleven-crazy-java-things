@@ -36,6 +36,7 @@ class Number9AccessingStaticInterfaceMethodsTest {
 
         assertThat(outputStreamCaptor.toString()).contains(
                 "Welcome to this conference!",
+                "This is the 2021 edition.",
                 "Time for the opening keynote.");
     }
 

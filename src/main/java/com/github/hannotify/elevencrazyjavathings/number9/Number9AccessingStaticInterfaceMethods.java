@@ -10,6 +10,7 @@ public class Number9AccessingStaticInterfaceMethods {
     public static void startConference() {
         var jFall = new Conference();
         System.out.println(jFall.welcome());
+        System.out.format("This is the %s edition.%n", jFall.YEAR);
 //        System.out.println(jFall.start());
     }
 }
