@@ -1,21 +1,21 @@
 package com.github.hannotify.elevencrazyjavathings.number5;
 
 public class Number5CrazyStuffInSwitchStatements {
-    public static String getEnergyLabelDescription(char energyLabel) {
+    public static String getTalkRatingDescription(char rating) {
         var description = "";
 
-        switch (energyLabel) {
+        switch (rating) {
             case 'a':
-                description = "Highly energy efficient.";
+                description = "Great talk!";
                 break;
             case 'b':
-                description = "Moderately energy efficient.";
+                description = "Good talk.";
                 break;
             case 'c' | 'd':
-                description = "Energy inefficient.";
+                description = "Average talk.";
                 break;
             default:
-                description = "Very energy inefficient.";
+                description = "Bad talk.";
         }
 
         return description;

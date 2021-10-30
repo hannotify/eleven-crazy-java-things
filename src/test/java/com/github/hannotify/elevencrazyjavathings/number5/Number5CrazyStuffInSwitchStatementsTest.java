@@ -10,16 +10,15 @@ import static org.assertj.core.api.Assertions.*;
 class Number5CrazyStuffInSwitchStatementsTest {
 
     @ParameterizedTest
-    @DisplayName("getEnergyLabelDescription() should return the right description for the given energy label")
-    @CsvSource({"a,Highly energy efficient.",
-            "b,Moderately energy efficient.",
-            "c,Energy inefficient.",
-            "d,Energy inefficient.",
-            "e,Very energy inefficient.",
-            "f,Very energy inefficient.",
-            "g,Very energy inefficient."})
-    void getEnergyLabelDescription(String energyLabel, String expectedDescription) {
-        String actualDescription = Number5CrazyStuffInSwitchStatements.getEnergyLabelDescription(energyLabel.charAt(0));
+    @DisplayName("getTalkRatingDescription() should return the right description for the given talk rating")
+    @CsvSource({"a,Great talk!",
+            "b,Good talk.",
+            "c,Average talk.",
+            "d,Average talk.",
+            "e,Bad talk.",
+            "f,Bad talk."})
+    void getTalkRatingDescription(String rating, String expectedDescription) {
+        String actualDescription = Number5CrazyStuffInSwitchStatements.getTalkRatingDescription(rating.charAt(0));
         assertThat(actualDescription).isEqualTo(expectedDescription);
     }
 }
