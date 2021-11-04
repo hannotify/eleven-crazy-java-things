@@ -29,7 +29,6 @@ class Number6MethodOverloadingPrioritiesTest {
     }
 
     @Test
-    @Disabled
     @DisplayName("printSum() should print 'In printSum(int...)' when int arguments are passed, because varargs are prioritised over boxing, which in turn is prioritised over widening.")
     void printSumIntVarArgs() {
         int a = 32;
@@ -42,7 +41,6 @@ class Number6MethodOverloadingPrioritiesTest {
     }
 
     @Test
-    @Disabled
     @DisplayName("printSum() should print 'In printSum(double)' when int arguments are passed, because widening is prioritised over boxing, which in turn is prioritised over varargs.")
     void printSumDouble() {
         int a = 32;
