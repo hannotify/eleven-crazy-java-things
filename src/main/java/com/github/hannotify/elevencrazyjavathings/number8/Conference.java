@@ -5,7 +5,7 @@ import java.time.Year;
 public enum Conference {
     ORACLE_CODE_ONE("Oracle Code One", 2022, "the USA"),
     J_FALL("J-Fall", 2021, "the Netherlands"),
-    DEVOXX("Devoxx", 2022, "Belgium");
+    DEVOXX("Devoxx", 2022, "Ukraine");
 
     private final String name;
     private final Year nextEdition;
