@@ -12,7 +12,7 @@ class Number8AnonymousSubclassInEnumTest {
     @DisplayName("whenIsTheNextDevoxx() should inform us of the year and place of the next Devoxx")
     void whenIsTheNextDevoxx() {
         assertThat(Number8AnonymousSubclassInEnum.whenIsTheNextDevoxx()).isEqualTo(
-                "The next Devoxx will be in 2022; it will take place in Belgium.");
+                "The next Devoxx will be in 2022; it will take place in Ukraine.");
     }
 
     @Test
