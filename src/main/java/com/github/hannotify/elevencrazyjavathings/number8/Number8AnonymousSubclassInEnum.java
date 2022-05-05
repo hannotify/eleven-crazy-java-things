@@ -5,11 +5,11 @@ public class Number8AnonymousSubclassInEnum {
         return Conference.J_FALL.whenIsTheNext();
     }
 
-    public static String whenIsTheNextDevoxx() {
-        return Conference.DEVOXX.whenIsTheNext();
+    public static String whenIsTheNextDevoxxUk() {
+        return Conference.DEVOXX_UK.whenIsTheNext();
     }
 
-    public static String whenIsTheNextOracleCodeOne() {
-        return Conference.ORACLE_CODE_ONE.whenIsTheNext();
+    public static String whenIsTheNextJavaOne() {
+        return Conference.JAVA_ONE.whenIsTheNext();
     }
 }

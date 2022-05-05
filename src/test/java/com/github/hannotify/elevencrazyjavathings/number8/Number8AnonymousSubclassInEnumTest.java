@@ -11,22 +11,22 @@ class Number8AnonymousSubclassInEnumTest {
     @Test
     @DisplayName("whenIsTheNextDevoxx() should inform us of the year and place of the next Devoxx")
     void whenIsTheNextDevoxx() {
-        assertThat(Number8AnonymousSubclassInEnum.whenIsTheNextDevoxx()).isEqualTo(
-                "The next Devoxx will be in 2022; it will take place in Ukraine.");
+        assertThat(Number8AnonymousSubclassInEnum.whenIsTheNextDevoxxUk()).isEqualTo(
+                "The next Devoxx UK will be in 2023; it will take place in the United Kingdom.");
     }
 
     @Test
     @DisplayName("whenIsTheNextOracleCodeOne() should inform us of the year and place of the next Oracle Code One")
     void whenIsTheNextOracleCodeOne() {
-        assertThat(Number8AnonymousSubclassInEnum.whenIsTheNextOracleCodeOne()).isEqualTo(
-                "The next Oracle Code One will be in 2022; it will take place in the USA.");
+        assertThat(Number8AnonymousSubclassInEnum.whenIsTheNextJavaOne()).isEqualTo(
+                "The next Java One will be in 2022; it will take place in the USA.");
     }
 
     @Test
     @DisplayName("whenIsTheNextJFall() should show our love for this fantastic conference!")
     void whenIsTheNextJFall() {
         assertThat(Number8AnonymousSubclassInEnum.whenIsTheNextJFall()).isEqualTo(
-                "The next J-Fall will be in 2021; it will take place in the Netherlands." +
+                "The next J-Fall will be in 2022; it will take place in the Netherlands." +
                         "It is the best one-day conference we know!");
     }
 }

@@ -5,9 +5,10 @@ import java.time.LocalTime;
 
 public class Number4EqualityInClonedArraysOrImmutableCollections {
     private Talk[] talks = new Talk[]{
-        new Talk("Victor Rentea", "A Clean, Pragmatic Architecture", LocalTime.of(14, 40)),
-        new Talk("Guy Royse", "Understanding Probabilistic Data Structures with 112,092 UFO Sightings",
-                LocalTime.of(15, 50)),
+        new Talk("Peter Wessels, Hanno Embregts", "Pattern Matching: Small Enhancement or Major Feature?",
+                LocalTime.of(16, 00)),
+        new Talk("Kelly Jille", "Be ‘Mr. Miyagi’ or find one!",
+                LocalTime.of(17, 00))
     };
 
     public Talk[] getTalks() {
