@@ -46,10 +46,4 @@ class Number3WrapperObjectsTest {
 
     So ==  will always return true when their primitive values are the same and belong to the above list of values.
      */
-
-    @Test
-    @DisplayName("integerEquals() should return true when the same arguments (10) are passed but one of the arguments is a new instance")
-    void integerEqualsShouldReturnTrueWith10AndNew10() {
-        assertThat(integerEquals(10, new Integer(10))).isTrue();
-    }
 }
