@@ -17,6 +17,6 @@ class Number4EqualityInClonedArraysOrImmutableCollectionsTest {
         var clonedTalks = number4.getClonedTalks();
 
         assertThat(talks == clonedTalks).isTrue();
-        assertThat(talks).contains(clonedTalks);
+        assertThat(talks).doesNotContain(clonedTalks);
     }
 }

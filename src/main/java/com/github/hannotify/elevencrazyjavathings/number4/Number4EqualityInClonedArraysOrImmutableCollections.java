@@ -6,9 +6,9 @@ import java.time.LocalTime;
 public class Number4EqualityInClonedArraysOrImmutableCollections {
     private Talk[] talks = new Talk[]{
         new Talk("Peter Wessels, Hanno Embregts", "Pattern Matching: Small Enhancement or Major Feature?",
-                LocalTime.of(16, 00)),
+                LocalTime.of(16, 0)),
         new Talk("Kelly Jille", "Be ‘Mr. Miyagi’ or find one!",
-                LocalTime.of(17, 00))
+                LocalTime.of(17, 0))
     };
 
     public Talk[] getTalks() {
