@@ -5,7 +5,7 @@ import java.time.Year;
 public enum Conference {
     JAVA_ONE("JavaOne", 2022, "the USA"),
     J_FALL("J-Fall", 2022, "the Netherlands"),
-    DEVOXX_UK("Devoxx UK", 2023, "United Kingdom");
+    DEVOXX_UK("Devoxx UK", 2023, "the United Kingdom");
 
     private final String name;
     private final Year nextEdition;

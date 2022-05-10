@@ -9,17 +9,17 @@ import static org.assertj.core.api.Assertions.*;
 class Number8AnonymousSubclassInEnumTest {
 
     @Test
-    @DisplayName("whenIsTheNextDevoxx() should inform us of the year and place of the next Devoxx")
-    void whenIsTheNextDevoxx() {
+    @DisplayName("whenIsTheNextDevoxxUk() should inform us of the year and place of the next Devoxx UK")
+    void whenIsTheNextDevoxxUk() {
         assertThat(Number8AnonymousSubclassInEnum.whenIsTheNextDevoxxUk()).isEqualTo(
                 "The next Devoxx UK will be in 2023; it will take place in the United Kingdom.");
     }
 
     @Test
-    @DisplayName("whenIsTheNextOracleCodeOne() should inform us of the year and place of the next Oracle Code One")
-    void whenIsTheNextOracleCodeOne() {
+    @DisplayName("whenIsTheNextJavaOne() should inform us of the year and place of the next JavaOne")
+    void whenIsTheNextJavaOne() {
         assertThat(Number8AnonymousSubclassInEnum.whenIsTheNextJavaOne()).isEqualTo(
-                "The next Java One will be in 2022; it will take place in the USA.");
+                "The next JavaOne will be in 2022; it will take place in the USA.");
     }
 
     @Test
