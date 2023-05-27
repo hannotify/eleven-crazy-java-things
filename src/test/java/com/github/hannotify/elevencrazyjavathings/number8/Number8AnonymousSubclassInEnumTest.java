@@ -9,24 +9,24 @@ import static org.assertj.core.api.Assertions.*;
 class Number8AnonymousSubclassInEnumTest {
 
     @Test
-    @DisplayName("whenIsTheNextDevoxxUk() should inform us of the year and place of the next Devoxx UK")
-    void whenIsTheNextDevoxxUk() {
-        assertThat(Number8AnonymousSubclassInEnum.whenIsTheNextDevoxxUk()).isEqualTo(
-                "The next Devoxx UK will be in 2023; it will take place in the United Kingdom.");
+    @DisplayName("whenIsTheNextDevoxxPl() should inform us of the year and place of the next Devoxx Poland")
+    void whenIsTheNextDevoxxPl() {
+        assertThat(Number8AnonymousSubclassInEnum.whenIsTheNextDevoxxPl()).isEqualTo(
+                "The next Devoxx PL will be in 2023; it will take place in Poland.");
     }
 
     @Test
-    @DisplayName("whenIsTheNextJavaOne() should inform us of the year and place of the next JavaOne")
-    void whenIsTheNextJavaOne() {
-        assertThat(Number8AnonymousSubclassInEnum.whenIsTheNextJavaOne()).isEqualTo(
-                "The next JavaOne will be in 2022; it will take place in the USA.");
+    @DisplayName("whenIsTheNextDevNexus() should inform us of the year and place of the next DevNexus")
+    void whenIsTheNextDevNexus() {
+        assertThat(Number8AnonymousSubclassInEnum.whenIsTheNextDevNexus()).isEqualTo(
+                "The next DevNexus will be in 2024; it will take place in the USA.");
     }
 
     @Test
     @DisplayName("whenIsTheNextJFall() should show our love for this fantastic conference!")
     void whenIsTheNextJFall() {
         assertThat(Number8AnonymousSubclassInEnum.whenIsTheNextJFall()).isEqualTo(
-                "The next J-Fall will be in 2022; it will take place in the Netherlands." +
+                "The next J-Fall will be in 2023; it will take place in the Netherlands." +
                         "It is the best one-day conference we know!");
     }
 }

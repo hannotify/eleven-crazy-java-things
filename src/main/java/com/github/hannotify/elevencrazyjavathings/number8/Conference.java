@@ -3,9 +3,9 @@ package com.github.hannotify.elevencrazyjavathings.number8;
 import java.time.Year;
 
 public enum Conference {
-    JAVA_ONE("JavaOne", 2022, "the USA"),
-    J_FALL("J-Fall", 2022, "the Netherlands"),
-    DEVOXX_UK("Devoxx UK", 2023, "the United Kingdom");
+    DEV_NEXUS("DevNexus", 2024, "the USA"),
+    J_FALL("J-Fall", 2023, "the Netherlands"),
+    DEVOXX_PL("Devoxx PL", 2023, "Poland");
 
     private final String name;
     private final Year nextEdition;
