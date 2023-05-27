@@ -4,10 +4,10 @@ import com.github.hannotify.elevencrazyjavathings.number10.Talk;
 import java.time.LocalTime;
 
 public class Number4EqualityInClonedArraysOrImmutableCollections {
-    private Talk[] talks = new Talk[]{
-        new Talk("Peter Wessels, Hanno Embregts", "Pattern Matching: Small Enhancement or Major Feature?",
-                LocalTime.of(16, 0)),
-        new Talk("Kelly Jille", "Be ‘Mr. Miyagi’ or find one!",
+    private final Talk[] talks = new Talk[]{
+        new Talk("Hanno Embregts", "Will Git Be Around Forever? A List of Possible Successors",
+                LocalTime.of(18, 10)),
+        new Talk("Tobias Modig", "Get old, go slow, write code!",
                 LocalTime.of(17, 0))
     };
 
