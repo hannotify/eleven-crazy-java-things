@@ -4,8 +4,7 @@ import java.util.List;
 
 public class Number11DeclareAndInitializeArrays {
     static int[] varArray() {
-        int[] elements = null;
-        // var[] elements = new int[2];
+        int[] elements = new int[2];
         return elements;
     }
 
