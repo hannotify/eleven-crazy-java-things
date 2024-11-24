@@ -4,3 +4,6 @@
 # Editor-based HTTP Client requests
 /httpRequests/
 /libraries/
+
+/copilot/
+/sonarlint/
