@@ -6,7 +6,7 @@ import java.time.ZonedDateTime;
 
 public class Number4EqualityInClonedArraysOrImmutableCollections {
     private final Talk[] talks = new Talk[]{
-        new Talk("Hanno Embregts", "Will Git Be Around Forever? A List of Possible Successors",
+        new Talk("Hanno Embregts", "11 Crazy Things I Didn't Know You Could Do With Java Until I Got Java Certified",
                 LocalTime.of(7, 35)),
         new Talk("Rishin Mitra", "Sheldon Cooper learns about JSON Relational Duality",
                 LocalTime.of(8, 35))
