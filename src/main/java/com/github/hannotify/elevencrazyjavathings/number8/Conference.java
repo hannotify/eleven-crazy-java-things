@@ -3,7 +3,7 @@ package com.github.hannotify.elevencrazyjavathings.number8;
 import java.time.Year;
 
 public enum Conference {
-    DEV_NEXUS("DevNexus", 2025, "the USA"),
+    DEVNEXUS("Devnexus", 2025, "the USA"),
     J_FALL("J-Fall", 2025, "the Netherlands"),
     DEVOXX_PL("Devoxx PL", 2025, "Poland");
 

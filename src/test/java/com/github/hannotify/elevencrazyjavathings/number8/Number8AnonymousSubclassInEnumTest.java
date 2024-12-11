@@ -16,10 +16,10 @@ class Number8AnonymousSubclassInEnumTest {
     }
 
     @Test
-    @DisplayName("whenIsTheNextDevNexus() should inform us of the year and place of the next DevNexus")
-    void whenIsTheNextDevNexus() {
-        assertThat(Number8AnonymousSubclassInEnum.whenIsTheNextDevNexus()).isEqualTo(
-                "The next DevNexus will be in 2025; it will take place in the USA.");
+    @DisplayName("whenIsTheNextDevnexus() should inform us of the year and place of the next Devnexus")
+    void whenIsTheNextDevnexus() {
+        assertThat(Number8AnonymousSubclassInEnum.whenIsTheNextDevnexus()).isEqualTo(
+                "The next Devnexus will be in 2025; it will take place in the USA.");
     }
 
     @Test
@@ -27,6 +27,6 @@ class Number8AnonymousSubclassInEnumTest {
     void whenIsTheNextJFall() {
         assertThat(Number8AnonymousSubclassInEnum.whenIsTheNextJFall()).isEqualTo(
                 "The next J-Fall will be in 2025; it will take place in the Netherlands." +
-                        "It is the best one-day conference we know!");
+                        "It is the best one-day Java conference we know!");
     }
 }

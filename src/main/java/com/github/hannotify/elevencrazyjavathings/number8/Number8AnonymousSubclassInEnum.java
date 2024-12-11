@@ -9,7 +9,7 @@ public class Number8AnonymousSubclassInEnum {
         return Conference.DEVOXX_PL.whenIsTheNext();
     }
 
-    public static String whenIsTheNextDevNexus() {
-        return Conference.DEV_NEXUS.whenIsTheNext();
+    public static String whenIsTheNextDevnexus() {
+        return Conference.DEVNEXUS.whenIsTheNext();
     }
 }
