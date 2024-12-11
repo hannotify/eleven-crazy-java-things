@@ -30,9 +30,9 @@ interface IgniteSpeaker extends Speaker {
 }
 
 @FunctionalInterface
-interface ByteSizeSpeaker extends Speaker {
+interface LightningSpeaker extends Speaker {
     default void speak() {
-        System.out.println("Speaking on a great subject in a Byte Size format");
+        System.out.println("Speaking on a great subject in a Lightning format");
     }
     void stressOutOverTimeLimit(int timeLimit);
 }
