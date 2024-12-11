@@ -13,7 +13,7 @@ class Number9AccessingStaticInterfaceMethodsTest {
     void testAccessingStaticInterfaceMethod() {
         Talk carrotsAreAwesome = new Talk("Bugs Bunny", "Carrots Are Awesome!", LocalTime.of(11, 0));
 
-        assertThat(carrotsAreAwesome.LENGTH_IN_MINUTES).isEqualTo(50);
-//        assertThat(carrotsAreAwesome.lengthDescription()).isEqualTo("This slot lasts 50 minutes.");
+        assertThat(carrotsAreAwesome.LENGTH_IN_MINUTES).isEqualTo(25);
+//        assertThat(carrotsAreAwesome.lengthDescription()).isEqualTo("This slot lasts 25 minutes.");
     }
 }

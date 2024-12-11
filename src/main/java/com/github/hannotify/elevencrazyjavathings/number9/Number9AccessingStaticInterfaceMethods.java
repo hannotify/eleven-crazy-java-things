@@ -5,7 +5,7 @@ import java.time.LocalTime;
 public class Number9AccessingStaticInterfaceMethods {}
 
 interface Slot {
-    int LENGTH_IN_MINUTES = 50;
+    int LENGTH_IN_MINUTES = 25;
 
     static String lengthDescription() {
         return String.format("This slot lasts %d minutes.", LENGTH_IN_MINUTES);
